@@ -11,7 +11,7 @@ A litttle Arduino projects, showing some intermediate/advanced programming techn
 ## Usage
 
 ### Basic
-To simply see the program in action, cmpile and upload to the Arduino. Open the SerialPlotter (115200baud) and watch the curves evolve.
+To simply see the program in action, cmpile and upload to the Arduino. Open the serial plotter (under Tools in the Arduino IDE) (115200baud) and watch the curves evolve.
 
 ### Configured
 Open the config.h and play with the parameters. For example, set a much lower frequency in line 8. Compile, upload, and watch the effect in the plotter.
@@ -31,4 +31,4 @@ Reactivate the outputs, e.g. with
 
 g10
 
-and spot the differenc!
+and spot the difference!
