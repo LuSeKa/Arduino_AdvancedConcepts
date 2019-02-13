@@ -86,3 +86,6 @@ will return the current blink interval.
 You can make the LED blink much faster, e.g. by typing
 
 b50
+
+![grafik](https://user-images.githubusercontent.com/8363989/52746634-40ee8a80-2fe2-11e9-85d2-2476c1a4943d.png)
+
