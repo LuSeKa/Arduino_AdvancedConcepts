@@ -1,5 +1,8 @@
 # Arduino_AdvancedConcepts
-A litttle Arduino project to exemplify some intermediate/advanced programming concepts for Arduino.
+A little Arduino project to exemplify some intermediate/advanced programming concepts for Arduino.
+
+These concepts might be useful to bring your Arduino project to the next level!
+The code is meant to be an engaging way to showcase the following concepts in an easy to understand way:
 
 ## Exemplified Concepts
 * Scheduling (cooperative multitasking) using Metro
@@ -61,7 +64,7 @@ a100
 ![grafik](https://user-images.githubusercontent.com/8363989/52742868-0c2a0580-2fd9-11e9-9d6c-cb85d7a89320.png)
 
 
-Reactivate the outputs, e.g. with
+Reactivate the outputs, e.g. at an interval of 10ms with
 
 g10
 
