@@ -18,6 +18,8 @@ https://github.com/LuSeKa/Metro (clone into the library folder of your Arduino I
 ### Basic
 To simply see the program in action, cmpile and upload to the Arduino. Open the serial plotter (under Tools in the Arduino IDE) (115200baud) and watch the curves evolve.
 
+![ExampleOutput](https://user-images.githubusercontent.com/8363989/52737905-c287ed80-2fcd-11e9-8855-f86a1aa6ec54.png)
+
 ### Configured
 Open the config.h and play with the parameters. For example, set a much lower frequency in line 8. Compile, upload, and watch the effect in the plotter.
 
