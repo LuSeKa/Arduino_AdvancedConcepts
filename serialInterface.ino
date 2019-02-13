@@ -1,24 +1,26 @@
 void interface_ASCII() {
   /*
-     Just the paramter returns the value of this parameter
-     The parameter followed by a value sets the paramter to this value
-     Lines need to end with '\n'
+     Manages the human-readable interactive serial interface.
+     
+     Just the paramter returns the value of this parameter.
+     The parameter followed by a value sets the paramter to this value.
+     Lines need to end with '\n' (newline).
   */
   int numInput = 0;
   float fnumInput = 0;
-  if (Serial.available()>1) { // data is available
+  if (Serial.available() > 1) { // data is available
     char command = Serial.read();
     switch (command)
     {
       case 'b':
         if (Serial.available() && Serial.peek() != '\n') {
           numInput = Serial.parseInt();
-          if (numInput>0){
-          ledMetro.reactivate(); // make sure the Metro is running
-          Serial.print("Setting blink interval to "); Serial.print(numInput); Serial.println(" ms");
-          ledMetro.setInterval(numInput);
+          if (numInput > 0) {
+            ledMetro.reactivate(); // make sure the Metro is running
+            Serial.print("Setting blink interval to "); Serial.print(numInput); Serial.println(" ms");
+            ledMetro.setInterval(numInput);
           }
-          else{
+          else {
             ledMetro.deactivate();
             Serial.println("Deactivate blinking");
           }
@@ -28,15 +30,15 @@ void interface_ASCII() {
         }
         break;
 
-        case 'g':
+      case 'g':
         if (Serial.available() && Serial.peek() != '\n') {
           numInput = Serial.parseInt();
-          if (numInput>0){
-          generatorMetro.reactivate(); // make sure the Metro is running
-          Serial.print("Setting function generator output interval to "); Serial.println(numInput);
-          generatorMetro.setInterval(numInput);
+          if (numInput > 0) {
+            generatorMetro.reactivate(); // make sure the Metro is running
+            Serial.print("Setting function generator output interval to "); Serial.println(numInput);
+            generatorMetro.setInterval(numInput);
           }
-          else{
+          else {
             generatorMetro.deactivate();
             Serial.println("Deactivate function generator output");
           }
@@ -46,7 +48,7 @@ void interface_ASCII() {
         }
         break;
 
-        case 'a':
+      case 'a':
         if (Serial.available() && Serial.peek() != '\n') {
           fnumInput = Serial.parseFloat();
           Serial.print("Setting signal amplitudes to "); Serial.println(fnumInput);
@@ -54,12 +56,12 @@ void interface_ASCII() {
           cosine.setAmplitude(fnumInput);
           squ.setAmplitude(fnumInput);
         }
-        else{
+        else {
           Serial.println("Invlid Input - missing paramter");
         }
         break;
 
-        case 'f':
+      case 'f':
         if (Serial.available() && Serial.peek() != '\n') {
           fnumInput = Serial.parseFloat();
           Serial.print("Setting signal frequencies to "); Serial.println(fnumInput);
@@ -67,7 +69,7 @@ void interface_ASCII() {
           cosine.setFrequency(fnumInput);
           squ.setFrequency(fnumInput);
         }
-        else{
+        else {
           Serial.println("Invlid Input - missing paramter");
         }
         break;
@@ -83,4 +85,3 @@ void interface_ASCII() {
     }
   }
 }
-

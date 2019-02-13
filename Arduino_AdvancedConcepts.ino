@@ -2,11 +2,13 @@
 #include "config.h"
 #include "funcGenerator.h"
 
-enum ledStates {ON, OFF};
+enum ledStates {ON, OFF}; // states of the blink state machine
 
+// metros for scheduling of the two tasks
 Metro ledMetro = Metro(DEFAULT_BLINK_INTERVAL);
 Metro generatorMetro = Metro(DEFAULT_PRINT_INTERVAL);
 
+// instanciate three function generators
 funcGenerator sine = funcGenerator(0, DEFAULT_FREQUENCY, DEFAULT_AMPLITUDE);
 funcGenerator cosine = funcGenerator(1, DEFAULT_FREQUENCY, DEFAULT_AMPLITUDE);
 funcGenerator squ = funcGenerator(2, DEFAULT_FREQUENCY, DEFAULT_AMPLITUDE);
@@ -14,13 +16,15 @@ funcGenerator squ = funcGenerator(2, DEFAULT_FREQUENCY, DEFAULT_AMPLITUDE);
 void setup() {
   Serial.begin(BAUDRATE);
   pinMode(LED_PIN, OUTPUT);
-  if (!PRINT_ON_STARTUP) {
+  if (!PRINT_ON_STARTUP) { // configured via config.h
     generatorMetro.deactivate();
   }
 }
 
 void loop() {
-  interface_ASCII();
+  interface_ASCII(); // serial interface
+
+  // tasks
   blinkTask();
   generatorTask();
 }

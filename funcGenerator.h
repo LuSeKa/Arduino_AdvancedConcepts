@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include <math.h>
-
 /*
  * A simple class to generate real-time functions
  * Supported types are (0) sine, (1) cosine and (2) square
