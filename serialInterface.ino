@@ -24,7 +24,7 @@ void interface_ASCII() {
           }
         }
         else {
-          Serial.print("Print interval in ms: "); Serial.println(ledMetro.getInterval());
+          Serial.print("Blink interval in ms: "); Serial.println(ledMetro.getInterval());
         }
         break;
 
