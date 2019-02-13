@@ -11,4 +11,3 @@
 // constants
 #define BAUDRATE 115200
 #define PRINT_ON_STARTUP true
-#define INITIAL_LEDSTATE OFF

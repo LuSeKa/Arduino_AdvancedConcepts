@@ -33,7 +33,7 @@ float funcGenerator::compute() {
         result = 0;
       }
       else {
-        result = this->amplitude * 1;
+        result = this->amplitude;
       }
       break;
     default:

@@ -4,9 +4,6 @@
 
 enum ledStates {ON, OFF};
 
-int ledMetro_interval = DEFAULT_BLINK_INTERVAL;
-int ledState = INITIAL_LEDSTATE;
-
 Metro ledMetro = Metro(DEFAULT_BLINK_INTERVAL);
 Metro generatorMetro = Metro(DEFAULT_PRINT_INTERVAL);
 
@@ -29,6 +26,7 @@ void loop() {
 }
 
 void blinkTask() { // blink state machine
+  static int ledState = OFF;
   if (ledMetro.check()) {
     switch (ledState) {
       case ON:
