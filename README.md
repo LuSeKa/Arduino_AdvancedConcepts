@@ -11,7 +11,7 @@ A litttle Arduino projects, showing some intermediate/advanced programming techn
 ## External Dependencies
 
 ### Metro library for cooperative multitasking (forked from the original work by thomasfredericks):
-https://github.com/LuSeKa/Metro
+https://github.com/LuSeKa/Metro (clone into the library folder of your Arduino IDE)
 
 ## Usage
 
