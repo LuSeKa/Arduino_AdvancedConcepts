@@ -67,4 +67,8 @@ g10
 
 and spot the difference!
 
+![grafik](https://user-images.githubusercontent.com/8363989/52743939-7e9be500-2fdb-11e9-9e00-1c12dd019c4c.png)
+
+If you want to see the difference on the plotter, you have to change the amplitude in the config.h, compile and upload.
+
 ![grafik](https://user-images.githubusercontent.com/8363989/52743139-a722df80-2fd9-11e9-9b04-020616cde573.png)
