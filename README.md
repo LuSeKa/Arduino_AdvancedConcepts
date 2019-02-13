@@ -75,3 +75,14 @@ and spot the difference!
 If you want to see the difference on the plotter, you have to change the amplitude in the config.h, compile and upload.
 
 ![grafik](https://user-images.githubusercontent.com/8363989/52743139-a722df80-2fd9-11e9-9b04-020616cde573.png)
+
+#### LED
+The command
+
+b
+
+will return the current blink interval.
+
+You can make the LED blink much faster, e.g. by typing
+
+b50
