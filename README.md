@@ -1,5 +1,5 @@
 # Arduino_AdvancedConcepts
-A litttle Arduino projects, showing some intermediate/advanced programming techniques
+A litttle Arduino project to exemplify some intermediate/advanced programming techniques 
 
 ## Exemplified Concepts
 * Scheduling (cooperative multitasking) using Metro
