@@ -15,7 +15,7 @@ void funcGenerator::setAmplitude(float a){
 }
 
 void funcGenerator::setType(int t){
-  this->type = constrain(t,1,2);
+  this->type = constrain(t,0,2);
 }
 
 float funcGenerator::compute() {
