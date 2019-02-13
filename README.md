@@ -1,8 +1,9 @@
 # Arduino_AdvancedConcepts
 A little Arduino project to exemplify some intermediate/advanced programming concepts for Arduino.
 
-These concepts might be useful to bring your Arduino project to the next level!
-The code is meant to be an engaging way to showcase the following in an easy to understand way:
+These concepts might be useful to bring your Arduino project to the next level (i.e. make the code tidier, more efficient and more reliable)!
+
+This example is meant to be an engaging way to showcase the following in an easy to understand way:
 
 ## Exemplified Concepts
 * Scheduling (cooperative multitasking) using Metro
@@ -29,7 +30,7 @@ The program can be configured via a config file - no need to touch any outher fi
 
 ## External Dependencies
 
-### Metro library for cooperative multitasking (forked from the original work by thomasfredericks):
+* Metro library for cooperative multitasking (forked from the original work by thomasfredericks):
 https://github.com/LuSeKa/Metro (clone into the library folder of your Arduino IDE)
 
 ## Usage
