@@ -36,6 +36,7 @@ This will deactivate the spam.
 ![ExampleTerminalOutput](https://user-images.githubusercontent.com/8363989/52742703-a3db2400-2fd8-11e9-93e0-5cd8025d24f4.png)
 
 (Alternatively, set PRINT_ON_STARTUP in line 9 of config.h to false.)
+
 Set some new values, e.g. increase the amplitudes to 100 with
 
 a100
@@ -48,3 +49,5 @@ Reactivate the outputs, e.g. with
 g10
 
 and spot the difference!
+
+![grafik](https://user-images.githubusercontent.com/8363989/52743139-a722df80-2fd9-11e9-9b04-020616cde573.png)
