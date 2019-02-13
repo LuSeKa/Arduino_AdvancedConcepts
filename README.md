@@ -46,9 +46,9 @@ Open a serial monitor (115200bps and Newline on enter) and type
 
 g0
 
-This will deactivate the spam.
+![grafik](https://user-images.githubusercontent.com/8363989/52743826-35e42c00-2fdb-11e9-9d82-84106a4d4909.png)
 
-![grafik](https://user-images.githubusercontent.com/8363989/52743743-06cdba80-2fdb-11e9-960d-79b1037fe6e8.png)
+This will deactivate the spam.
 
 ![ExampleTerminalOutput](https://user-images.githubusercontent.com/8363989/52742703-a3db2400-2fd8-11e9-93e0-5cd8025d24f4.png)
 
