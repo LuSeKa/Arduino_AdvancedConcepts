@@ -15,7 +15,7 @@ void interface_ASCII() {
           numInput = Serial.parseInt();
           if (numInput>0){
           ledMetro.reactivate(); // make sure the Metro is running
-          Serial.print("Setting blink interval to "); Serial.println(numInput);
+          Serial.print("Setting blink interval to "); Serial.print(numInput); Serial.println(" ms");
           ledMetro.setInterval(numInput);
           }
           else{
