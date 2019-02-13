@@ -2,7 +2,7 @@
 A little Arduino project to exemplify some intermediate/advanced programming concepts for Arduino.
 
 These concepts might be useful to bring your Arduino project to the next level!
-The code is meant to be an engaging way to showcase the following concepts in an easy to understand way:
+The code is meant to be an engaging way to showcase the following in an easy to understand way:
 
 ## Exemplified Concepts
 * Scheduling (cooperative multitasking) using Metro
