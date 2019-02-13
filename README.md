@@ -7,6 +7,7 @@ A litttle Arduino project to exemplify some intermediate/advanced programming te
 * Using a config.h file
 * Using the serial plotter
 * Classes
+* State machines
 
 ## External Dependencies
 
@@ -18,17 +19,20 @@ https://github.com/LuSeKa/Metro (clone into the library folder of your Arduino I
 ### Basic
 To simply see the program in action, cmpile and upload to the Arduino. Open the serial plotter (under Tools in the Arduino IDE) (115200baud) and watch the curves evolve.
 
-![ExampleOutput](https://user-images.githubusercontent.com/8363989/52737905-c287ed80-2fcd-11e9-8855-f86a1aa6ec54.png)
+![ExamplePlotterOutput](https://user-images.githubusercontent.com/8363989/52737905-c287ed80-2fcd-11e9-8855-f86a1aa6ec54.png)
 
 ### Configured
 Open the config.h and play with the parameters. For example, set a much lower frequency in line 8. Compile, upload, and watch the effect in the plotter.
 
 ### Interactive
-Open a serial monitor (115200bps) and type
+Open a serial monitor (115200bps and Newline on enter) and type
 
 g0
 
 This will deactivate the spam.
+
+![ExampleTerminalOutput](https://user-images.githubusercontent.com/8363989/52742703-a3db2400-2fd8-11e9-93e0-5cd8025d24f4.png)
+
 (Alternatively, set PRINT_ON_STARTUP in line 9 of config.h to false.)
 Set some new values, e.g. increase the amplitudes to 100 with
 
