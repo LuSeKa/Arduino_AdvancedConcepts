@@ -1,7 +1,7 @@
 # Arduino_AdvancedConcepts
 A little Arduino project to exemplify some intermediate/advanced programming concepts for Arduino.
 
-These concepts might be useful to bring your Arduino project to the next level!
+These concepts might be useful to bring your Arduino project to the next level (i.e. make the code tidier, more efficient and more reliable)!
 The code is meant to be an engaging way to showcase the following in an easy to understand way:
 
 ## Exemplified Concepts
