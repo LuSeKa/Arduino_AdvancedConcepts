@@ -28,7 +28,7 @@ g0
 
 This will deactivate the spam.
 (Alternatively, set PRINT_ON_STARTUP in line 9 of config.h to false.)
-Set some new values, e.g. increase to amplitudes to 100 with
+Set some new values, e.g. increase the amplitudes to 100 with
 
 a100
 
