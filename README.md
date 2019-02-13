@@ -1,13 +1,28 @@
 # Arduino_AdvancedConcepts
-A litttle Arduino project to exemplify some intermediate/advanced programming techniques 
+A litttle Arduino project to exemplify some intermediate/advanced programming concepts for Arduino.
 
 ## Exemplified Concepts
 * Scheduling (cooperative multitasking) using Metro
+* State machines
+* Classes
+* Using the serial plotter
 * Paramter setting via the serial input
 * Using a config.h file
-* Using the serial plotter
-* Classes
-* State machines
+
+### In Detail
+
+The Arduino runs two tasks: It lets its LED blink (with variable frequency) and runs three function generators (sine, cosine and square wave).
+
+The blink task is implemented as a simple state machine.
+
+The function generators are all instances of the same class funcGenerator.
+
+The output is formatted so that it can be viewed on the IDE's built-in serial plotter.
+
+At the same time the user can set paramters and control the output via the IDE's serial monitor.
+
+The program can be configured via a config file - no need to touch any outher files (e.g. comment out things here and there...)
+
 
 ## External Dependencies
 
