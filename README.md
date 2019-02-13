@@ -8,6 +8,11 @@ A litttle Arduino projects, showing some intermediate/advanced programming techn
 * Using the serial plotter
 * Classes
 
+## External Dependencies
+
+### Metro library for cooperative multitasking (forked from the original work by thomasfredericks):
+https://github.com/LuSeKa/Metro
+
 ## Usage
 
 ### Basic
