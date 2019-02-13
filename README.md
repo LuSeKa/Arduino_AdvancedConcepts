@@ -48,6 +48,8 @@ g0
 
 This will deactivate the spam.
 
+![grafik](https://user-images.githubusercontent.com/8363989/52743743-06cdba80-2fdb-11e9-960d-79b1037fe6e8.png)
+
 ![ExampleTerminalOutput](https://user-images.githubusercontent.com/8363989/52742703-a3db2400-2fd8-11e9-93e0-5cd8025d24f4.png)
 
 (Alternatively, set PRINT_ON_STARTUP in line 9 of config.h to false.)
