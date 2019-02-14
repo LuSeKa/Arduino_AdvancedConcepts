@@ -38,12 +38,12 @@ https://github.com/LuSeKa/Metro (clone into the library folder of your Arduino I
 ### Basic
 To simply see the program in action, cmpile and upload to the Arduino. Open the serial plotter (under Tools in the Arduino IDE) (115200baud) and watch the curves evolve.
 
-![grafik](https://user-images.githubusercontent.com/8363989/52743026-64f99e00-2fd9-11e9-9c10-b28ac932af57.png)
+![grafik](https://user-images.githubusercontent.com/8363989/52767530-1a087680-302b-11e9-809c-94fbe7bd699b.png)
 
 ### Configured
 Open the config.h and play with the parameters. For example, set a much lower frequency in line 8. Compile, upload, and watch the effect in the plotter.
 
-![grafik](https://user-images.githubusercontent.com/8363989/52742959-40052b00-2fd9-11e9-8b1a-37e6a35ae545.png)
+![grafik](https://user-images.githubusercontent.com/8363989/52767603-4d4b0580-302b-11e9-8abf-f92f605308e4.png)
 
 ### Interactive
 Open a serial monitor (115200bps and Newline on enter) and type
@@ -75,7 +75,7 @@ and spot the difference!
 
 If you want to see the difference on the plotter, you have to change the amplitude in the config.h, compile and upload.
 
-![grafik](https://user-images.githubusercontent.com/8363989/52743139-a722df80-2fd9-11e9-9b04-020616cde573.png)
+![grafik](https://user-images.githubusercontent.com/8363989/52767677-84211b80-302b-11e9-8ace-94c06b5db63f.png)
 
 #### LED
 The command
