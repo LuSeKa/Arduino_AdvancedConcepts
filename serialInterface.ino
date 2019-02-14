@@ -1,7 +1,7 @@
 void interface_ASCII() {
   /*
      Manages the human-readable interactive serial interface.
-     
+
      Just the paramter returns the value of this parameter.
      The parameter followed by a value sets the paramter to this value.
      Lines need to end with '\n' (newline).
@@ -17,16 +17,22 @@ void interface_ASCII() {
           numInput = Serial.parseInt();
           if (numInput > 0) {
             ledMetro.reactivate(); // make sure the Metro is running
-            Serial.print("Setting blink interval to "); Serial.print(numInput); Serial.println(" ms");
             ledMetro.setInterval(numInput);
+            if (VERBOSE) {
+              Serial.print("Setting blink interval to "); Serial.print(numInput); Serial.println(" ms");
+            }
           }
           else {
             ledMetro.deactivate();
-            Serial.println("Deactivate blinking");
+            if (VERBOSE) {
+              Serial.println("Deactivate blinking");
+            }
           }
         }
         else {
-          Serial.print("Blink interval in ms: "); Serial.println(ledMetro.getInterval());
+          if (VERBOSE) {
+            Serial.print("Blink interval in ms: "); Serial.println(ledMetro.getInterval());
+          }
         }
         break;
 
@@ -35,47 +41,63 @@ void interface_ASCII() {
           numInput = Serial.parseInt();
           if (numInput > 0) {
             generatorMetro.reactivate(); // make sure the Metro is running
-            Serial.print("Setting function generator output interval to "); Serial.println(numInput);
             generatorMetro.setInterval(numInput);
+            if (VERBOSE) {
+              Serial.print("Setting function generator output interval to "); Serial.println(numInput);
+            }
           }
           else {
             generatorMetro.deactivate();
-            Serial.println("Deactivate function generator output");
+            if (VERBOSE) {
+              Serial.println("Deactivate function generator output");
+            }
           }
         }
         else {
-          Serial.println(generatorMetro.getInterval());
+          if (VERBOSE) {
+            Serial.println(generatorMetro.getInterval());
+          }
         }
         break;
 
       case 'a':
         if (Serial.available() && Serial.peek() != '\n') {
           fnumInput = Serial.parseFloat();
-          Serial.print("Setting signal amplitudes to "); Serial.println(fnumInput);
           sine.setAmplitude(fnumInput);
           cosine.setAmplitude(fnumInput);
           squ.setAmplitude(fnumInput);
+          if (VERBOSE) {
+            Serial.print("Setting signal amplitudes to "); Serial.println(fnumInput);
+          }
         }
         else {
-          Serial.println("Invlid Input - missing paramter");
+          if (VERBOSE) {
+            Serial.println("Invlid Input - missing paramter");
+          }
         }
         break;
 
       case 'f':
         if (Serial.available() && Serial.peek() != '\n') {
           fnumInput = Serial.parseFloat();
-          Serial.print("Setting signal frequencies to "); Serial.println(fnumInput);
           sine.setFrequency(fnumInput);
           cosine.setFrequency(fnumInput);
           squ.setFrequency(fnumInput);
+          if (VERBOSE) {
+            Serial.print("Setting signal frequencies to "); Serial.println(fnumInput);
+          }
         }
         else {
-          Serial.println("Invlid Input - missing paramter");
+          if (VERBOSE) {
+            Serial.println("Invlid Input - missing paramter");
+          }
         }
         break;
 
       default:
-        Serial.println("ERROR: invalid command");
+        if (VERBOSE) {
+          Serial.println("ERROR: invalid command");
+        }
         break;
     }
     // clear the input buffer, in case something is left there

@@ -11,3 +11,4 @@
 // Constants
 #define BAUDRATE 115200
 #define PRINT_ON_STARTUP true
+#define VERBOSE true

@@ -32,11 +32,11 @@ float funcGenerator::compute() {
       result = this->amplitude * cos(phase);
       break;
     case 2: // square wave
-      if (fmod(phase, PI) < PI / 2) {
-        result = 0;
+      if (fmod(phase, 2*PI) < PI) {
+        result = this->amplitude;
       }
       else {
-        result = this->amplitude;
+        result = 0;
       }
       break;
     default:
