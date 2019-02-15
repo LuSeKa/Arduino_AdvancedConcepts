@@ -1,17 +1,18 @@
 # Arduino_AdvancedConcepts
 A little Arduino project to exemplify some intermediate/advanced programming concepts for Arduino.
 
-These concepts might be useful to bring your Arduino project to the next level (i.e. make the code tidier, more efficient and more reliable)!
+For many Makers, Arduino projects are one of the first contacts with coding and remain relatively basic.
+However, with a few a little more advanced concepts in (Arduino) programming, many Arduino projects can be brouhgt to the next level (i.e. more organized, more efficient and more reliable).
 
-This example is meant to be an engaging way to showcase the following in an easy to understand way:
+This project is a concise way to exemplifiy the following good-to-know techniques that are applicable to many programs:
 
 ## Exemplified Concepts
-* Scheduling (cooperative multitasking) using Metro
-* State machines
-* Classes
-* Using the serial plotter
-* Paramter setting via the serial input
-* Using a config.h file
+* Scheduling (cooperative multitasking) using Metro (avoid delay())
+* State machines (a mighty concept for more complex tasks)
+* Classes (avoid duplicated code)
+* Using the serial plotter (for visualization and debugging)
+* Paramter setting via the serial input (to save time when tuning parameters)
+* Using a config.h file (all configurations in onle place)
 
 ### In Detail
 
