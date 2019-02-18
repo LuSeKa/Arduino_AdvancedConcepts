@@ -78,7 +78,7 @@ If you want to see the difference on the plotter, you have to change the amplitu
 
 ![grafik](https://user-images.githubusercontent.com/8363989/52767677-84211b80-302b-11e9-8ace-94c06b5db63f.png)
 
-#### LED
+### LED
 The command
 
 b
