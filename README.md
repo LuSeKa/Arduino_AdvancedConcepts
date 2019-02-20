@@ -27,7 +27,7 @@ The output is formatted so that it can be viewed on the IDE's built-in serial pl
 
 At the same time, the user can set paramters and control the output via the IDE's (or any other) serial monitor.
 
-The program can be configured via a config file - no need to touch any outher files (e.g. comment out things here and there...)
+The program can be configured via a config file - no need to touch any other files (e.g. comment out things here and there...)
 
 
 ## External Dependencies
