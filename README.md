@@ -1,5 +1,6 @@
 # Arduino_AdvancedConcepts
 An Arduino project to exemplify some intermediate/advanced programming concepts for Arduino.
+No hardware other than an Arduino required.
 
 For many Makers, Arduino projects are one of the first contacts with coding and remain relatively basic.
 However, with a few a little more advanced concepts in (Arduino) programming, many Arduino projects can be brouhgt to the next level (i.e. more organized, more efficient and more reliable).
