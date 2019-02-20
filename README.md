@@ -92,3 +92,9 @@ b50
 
 ![grafik](https://user-images.githubusercontent.com/8363989/52746634-40ee8a80-2fe2-11e9-85d2-2476c1a4943d.png)
 
+## Next Steps
+Here ar some ideas for possible modifictaions:
+
+* Modify the program so that the LED's blinking frequency changes in a sinusoidal manner, controlled by a funcGenerator
+* If you have a potentiometer, make the function amplitudes controllable via analog input
+* ...
