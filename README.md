@@ -77,7 +77,7 @@ and spot the difference!
 
 If you want to see the difference on the plotter, you have to change the amplitude in the config.h, compile and upload.
 
-![grafik](https://user-images.githubusercontent.com/8363989/52767677-84211b80-302b-11e9-8ace-94c06b5db63f.png)
+![high_amplitude](https://user-images.githubusercontent.com/8363989/53286035-a8d26d00-3768-11e9-8258-fcadb25c3e4a.gif)
 
 ### LED
 The command
