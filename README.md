@@ -45,7 +45,7 @@ To simply see the program in action, cmpile and upload to the Arduino. Open the 
 ### Configured
 Open the config.h and play with the parameters. For example, set a much lower frequency in line 8. Compile, upload, and watch the effect in the plotter.
 
-![grafik](https://user-images.githubusercontent.com/8363989/52767603-4d4b0580-302b-11e9-8abf-f92f605308e4.png)
+![slower](https://user-images.githubusercontent.com/8363989/53286004-4ed1a780-3768-11e9-995e-fffdd6fbe428.gif)
 
 ### Interactive
 Open a serial monitor (115200bps and Newline on enter) and type
