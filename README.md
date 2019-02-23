@@ -38,7 +38,7 @@ https://github.com/LuSeKa/Metro (clone into the library folder of your Arduino I
 ## Usage
 
 ### Basic
-To simply see the program in action, cmpile and upload to the Arduino. Open the serial plotter (under Tools in the Arduino IDE) (115200baud) and watch the curves evolve.
+To simply see the program in action, compile and upload to the Arduino. Open the serial plotter (under Tools in the Arduino IDE) (115200baud) and watch the curves evolve.
 
 ![basic_usage](https://user-images.githubusercontent.com/8363989/53285932-72482280-3767-11e9-8290-0e89f62e43c8.gif)
 
