@@ -12,7 +12,7 @@ This project is a concise way to exemplifiy the following good-to-know technique
 * State machines (a mighty concept for more complex tasks)
 * Classes (avoid duplicated code)
 * Using the serial plotter (for visualization and debugging)
-* Paramter setting via the serial input (to save time when tuning parameters)
+* Paramter setting via the serial input (save time when tuning parameters)
 * Using a config.h file (all configurations in one place)
 
 ### In Detail
