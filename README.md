@@ -8,7 +8,7 @@ However, with a few a little more advanced concepts in (Arduino) programming, ma
 This project is a concise way to exemplifiy the following good-to-know techniques that are applicable to many programs:
 
 ## Exemplified Concepts
-* Scheduling (cooperative multitasking) using Metro (avoid delay())
+* Cooperative multitasking (avoid delay())
 * State machines (a mighty concept for more complex tasks)
 * Classes (avoid duplicated code)
 * Using the serial plotter (for visualization and debugging)
